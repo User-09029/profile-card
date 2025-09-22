@@ -1,0 +1,72 @@
+Git Commands with Meanings and Functions (Beginner Friendly)
+-------------------------------------------------------------
+
+1. git init
+   - Function: Initializes a new Git repository in the current folder.
+   - Meaning: Starts tracking your code using Git.
+
+2. git status
+   - Function: Shows the current state of the working directory and staging area.
+   - Meaning: Tells you which files are modified, staged, or untracked.
+
+3. git add .
+   - Function: Adds all changed files to the staging area.
+   - Meaning: Prepares your changes to be committed.
+   - Note: The dot (.) means "all files".
+
+4. git add filename
+   - Function: Adds a specific file to staging.
+   - Meaning: Tracks one file for commit.
+
+5. git commit -m "message"
+   - Function: Commits the staged changes with a message.
+   - Meaning: Saves your changes with a message describing what you did.
+   - -m flag: Used to provide a message directly in the command.
+
+6. git branch
+   - Function: Lists all branches in your repo.
+   - Meaning: Shows current branch and others.
+
+7. git branch branch-name
+   - Function: Creates a new branch.
+   - Meaning: Makes a separate line of development.
+
+8. git checkout branch-name
+   - Function: Switches to a different branch.
+   - Meaning: Lets you work in that branch.
+
+9. git checkout -b branch-name
+   - Function: Creates and switches to a new branch.
+   - Meaning: Shortcut to make and enter a new branch.
+
+10. git merge branch-name
+    - Function: Merges the specified branch into the current branch.
+    - Meaning: Combines code from one branch to another.
+
+11. git push
+    - Function: Uploads your local commits to the remote repository.
+    - Meaning: Sends your work online (e.g., GitHub).
+
+12. git push -u origin branch-name
+    - Function: Pushes branch to remote and sets it as upstream.
+    - Meaning: -u flag sets the default remote for future pushes.
+    - origin: The name of your remote (usually origin).
+    - branch-name: The name of your current branch.
+
+13. git pull
+    - Function: Fetches and merges code from remote repo.
+    - Meaning: Updates your local repo with changes from others.
+
+14. git clone <repo-url>
+    - Function: Makes a copy of a remote repo on your machine.
+    - Meaning: Downloads a project with Git tracking.
+
+Flags and Options:
+------------------
+- -m "message": Used in git commit to provide a short commit message.
+- -u: Used in git push to set upstream (remembers the remote branch).
+- . (dot): Means "all files" in git add .
+
+Tip:
+----
+Use "git help <command>" to get detailed help on any Git command.

@@ -1,0 +1,20 @@
+.gridview {
+    display : grid;
+    grid-template-columns : repeat(3 , 1fr) ;
+    gap: 50px ;
+    background-color: aquamarine;
+    justify-items: space-between;
+    padding: 10px;
+    min-width: min-content;
+}
+.gridview img {
+    border: 2px solid rgb(139, 5, 122);
+    border-radius: 10%;
+    height : 150px;
+}
+@media (max-width : 600px) {
+    .gridview {
+        grid-template-columns : 1fr;
+        justify-items: center;
+    }
+}
