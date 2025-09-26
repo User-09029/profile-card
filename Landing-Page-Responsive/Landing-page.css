@@ -30,7 +30,7 @@ body {
 }
 .Section-transparent{
     background: transparent;
-    height: 50vw;
+    height: 50vh;
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-content: center;
@@ -46,7 +46,7 @@ body {
 }
 .Section-shaded{
     background: tan;
-    height: 50vw;
+    height: 50vh;
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-content: center;
@@ -113,3 +113,12 @@ a{
     font-size: 14px;
     color: #aaa;
 }
+@media(max-width: 600px){
+    .Section-transparent,
+    .Section-shaded{
+        display: grid ;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
+    }
