@@ -1,0 +1,10 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+#myform {
+    color: aqua;
+    padding: 2px;
+    font-size: medium;
+}
